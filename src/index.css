@@ -15,8 +15,8 @@
 }
 
 :root {
-  --color-bg: #87E6F6;
-  --color-bg-variant: #AAE3EE;
+  --color-bg: #87e6f6;
+  --color-bg-variant: #aae3ee;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-black: #000;
@@ -36,12 +36,12 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--color-black);
   line-height: 1.7;
-  background: linear-gradient(180deg, #69E1F9 0%, rgba(105, 225, 249, 0) 100%);
+  background: linear-gradient(180deg, #69e1f9 0%, rgba(105, 225, 249, 0) 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-section {  
+section {
   height: 100vh;
 }
 
@@ -124,10 +124,10 @@ img {
   }
 }
 
-@media(max-width:850px) {
-  .wave-container::before {    
-    height: 32px
-  }  
+@media (max-width: 850px) {
+  .wave-container::before {
+    height: 32px;
+  }
 }
 
 @media screen and (max-width: 600px) {
