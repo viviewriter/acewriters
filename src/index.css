@@ -16,14 +16,14 @@
 
 :root {
   --color-bg: #87e6f6;
-  --color-bg-variant: #aae3ee;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg-variant: #042961;
+  --color-primary: #e27527;
+  --color-primary-variant: #97480f;
   --color-black: #000;
   --color-white: #ffff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: #6b7280;
   --transition: all 400ms ease;
-  --container-width-lg: 75%;
+  --container-width-lg: 90%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
@@ -36,18 +36,20 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--color-black);
   line-height: 1.7;
+  
   background: linear-gradient(180deg, #69e1f9 0%, rgba(105, 225, 249, 0) 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 section {
-  height: 100vh;
+  padding-top: 10vh;
 }
 
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  border-bottom: 2px solid var(--color-primary);
 }
 
 h1,
@@ -78,19 +80,19 @@ section > h2 {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-white);
   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--color-black);
+  color: var(--color-primary);
 }
 
 .btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75rem 1.3rem;
+  padding: 0.85rem 1.3rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
@@ -98,7 +100,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-black);
+  background: var(--color-primary-variant);
   color: var(--color-bg);
   border-color: transparent;
 }
@@ -108,11 +110,41 @@ a:hover {
   color: var(--color-bg);
 }
 
+.cta__nav-button {
+  margin: 0.8rem 5rem 0 0.3rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
 img {
   display: block;
   width: 100%;
   object-fit: cover;
 }
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.socials a {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.socials a:hover {
+  background: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary-variant);
+}
+
 
 @media screen and (max-width: 1024px) {
   .container {
@@ -121,12 +153,6 @@ img {
 
   section {
     margin-top: 6rem;
-  }
-}
-
-@media (max-width: 850px) {
-  .wave-container::before {
-    height: 32px;
   }
 }
 
