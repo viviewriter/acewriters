@@ -19,23 +19,14 @@ const Testimonials = () => (
     >
       {
         dataTestimonials.map(({
-          id, userName, avatar, review,
+          id, avatar,
         }) => (
           <SwiperSlide
-            className="testimonial owl-carousel"
             key={id}
           >
-            <div className="pic">
-              <img src={avatar} alt="Avatar one" />
-            </div>
-            <p className="description">
-              {review}
-            </p>
-            <div className="testimonial-profile">
-              <h3 className="title">{userName}</h3>
-              <br />
-              <span className="post">Web Developer</span>
-            </div>
+            <figure className="snip1574">
+              <img src={avatar} alt="profile-sample2" />
+            </figure>
           </SwiperSlide>
         ))
       }
