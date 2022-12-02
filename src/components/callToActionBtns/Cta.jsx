@@ -2,9 +2,13 @@ import React from 'react';
 
 function Cta() {
   return (
-    <div className="cta">
-      <h1>Hi from about</h1>
-    </div>
+    <a
+      href="#contact"
+      rel="noopener noreferrer"
+      className="btn btn-primary cta__nav-button"
+    >
+      Order Now
+    </a>
   );
 }
 
