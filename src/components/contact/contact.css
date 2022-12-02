@@ -19,7 +19,7 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
-  color: var(--color-white)
+  color: var(--color-white);
 }
 
 .contact__option:hover {

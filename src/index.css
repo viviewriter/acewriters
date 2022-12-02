@@ -36,7 +36,6 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--color-black);
   line-height: 1.7;
-  
   background: linear-gradient(180deg, #69e1f9 0%, rgba(105, 225, 249, 0) 100%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +143,6 @@ img {
   color: var(--color-primary);
   border-color: var(--color-primary-variant);
 }
-
 
 @media screen and (max-width: 1024px) {
   .container {

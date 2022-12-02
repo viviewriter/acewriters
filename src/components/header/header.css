@@ -92,14 +92,14 @@
   .header__container {
     width: var(--container-width-sm);
   }
-  
+
   .cta__partition {
     margin-left: 1rem;
     margin-top: 0;
     flex-direction: row;
     align-items: center;
   }
-  
+
   .header__page-heading > h1 {
     font-size: 1.75rem;
     line-height: 2.25rem;
