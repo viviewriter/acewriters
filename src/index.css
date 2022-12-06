@@ -42,13 +42,12 @@ body {
 }
 
 section {
-  padding-top: 10vh;
+  padding-top: 80px;
 }
 
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
-  border-bottom: 2px solid var(--color-primary);
 }
 
 h1,

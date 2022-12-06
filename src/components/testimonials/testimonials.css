@@ -81,13 +81,6 @@
   letter-spacing: 1px;
 }
 
-hr {
-  border: 1px solid var(--color-primary);
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 10vh;
-}
-
 @media screen and (max-width: 1024px) {
   .container.testimonials__container {
     width: 60%;

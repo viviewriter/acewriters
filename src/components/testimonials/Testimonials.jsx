@@ -8,7 +8,6 @@ import dataTestimonials from '../../data/dataTestimonials';
 
 const Testimonials = () => (
   <section id="testimonials">
-    <h5>Review from clients</h5>
     <h2>Testimonials</h2>
     <Swiper
       className="container testimonials__container"
@@ -31,7 +30,6 @@ const Testimonials = () => (
         ))
       }
     </Swiper>
-    <hr />
   </section>
 );
 

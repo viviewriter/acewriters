@@ -10,7 +10,7 @@ function Portfolio() {
       <div className="container portfolio__container">
         {
         data.map(({
-          id, description, title,
+          id, description, title, fullDocument,
         }) => (
           <article className="letter" key={id}>
             <h4>{title}</h4>
@@ -19,9 +19,9 @@ function Portfolio() {
             </p>
             <div className="fadeout" />
             <a
-              href="#contact"
+              href={fullDocument}
               rel="noopener noreferrer"
-              className="btn btn-primary"
+              className="btn"
             >
               Download full paper
             </a>

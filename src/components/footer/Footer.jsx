@@ -20,7 +20,7 @@ const Footer = () => (
 
     <div className="footer__copyright">
       <small>
-        &copy; Ace Writers 2022. All rights reserved. Made with ♥ by
+        &copy; Ace Writers 2022. All rights reserved. Made by
         {' '}
         <a
           href="https://github.com/mosams"

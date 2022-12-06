@@ -1,3 +1,7 @@
+import gmos from '../assets/gmos.docx';
+import immortalLife from '../assets/Immortal_Life.docx';
+import religion from '../assets/RELIGION.docx';
+
 export default [
   {
     id: 1,
@@ -8,6 +12,7 @@ export default [
     erratic weather shifting harvest patterns, and longer growing seasons that cause pest pressures
     have all impacted agriculture. Ironically, the food system production contributes further to the
     greenhouse emissions that escalate the climate change crisis.`,
+    fullDocument: gmos,
   },
   {
     id: 2,
@@ -19,6 +24,7 @@ export default [
     and women have given their lives and health to medical progress without their knowledge or
     permission. Henrietta Lacks is one example. Under the guise of medical progress, the American
     Medical Establishment hurt Henrietta and other silent African American victims.`,
+    fullDocument: immortalLife,
   },
   {
     id: 3,
@@ -29,5 +35,6 @@ export default [
     new lands where they built mosques and other works of art as an expression of their own faith.
     The Muslim community is guided by the five main pillars which shape the culture and the
     interactions of the Muslim community with other cultures. `,
+    fullDocument: religion,
   },
 ];
