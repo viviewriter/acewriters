@@ -18,7 +18,6 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
       <h2>Contact Us</h2>
 
       <div className="container contact__container">
@@ -44,9 +43,9 @@ const Contact = () => {
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input hidden readOnly type="text" value="Ace Writers" name="name" />
-          <input type="text" name="from_name" placeholder="Your Full Name" required />
+          <input type="text" name="from_name" placeholder="Name" required />
           <input type="email" name="email" placeholder="Enter your email" required />
-          <textarea name="message" rows="7" placeholder="Your Message" required />
+          <textarea name="message" rows="7" placeholder="Paper description" required />
           <button type="submit" className="btn btn-primary">Send Message</button>
         </form>
       </div>

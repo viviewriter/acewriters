@@ -5,7 +5,6 @@ import data from '../../data/dataPortfolio';
 function Portfolio() {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
       <h2>Sample Papers</h2>
 
       <div className="container portfolio__container">
@@ -19,6 +18,13 @@ function Portfolio() {
               {description}
             </p>
             <div className="fadeout" />
+            <a
+              href="#contact"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+              Download full paper
+            </a>
           </article>
         ))
       }

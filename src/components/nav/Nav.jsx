@@ -4,7 +4,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import Cta from '../callToActionBtns/Cta';
 import './nav.css';
 
 function Nav() {
@@ -14,7 +13,7 @@ function Nav() {
   return (
     <>
       <nav className="navbar">
-        <div className="nav-container">
+        <div className="nav-container container">
           <a href="#" className="nav-logo">
             Ace Writers
           </a>
@@ -66,7 +65,13 @@ function Nav() {
               </a>
             </li>
           </ul>
-          <Cta />
+          <a
+            href="#contact"
+            rel="noopener noreferrer"
+            className="btn btn-primary cta__nav-button"
+          >
+            Order Now
+          </a>
           <div className="nav-icon" onClick={handleClick}>
             {click ? <AiOutlineClose /> : <GiHamburgerMenu />}
           </div>

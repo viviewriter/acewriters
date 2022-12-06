@@ -5,7 +5,7 @@ function Cta() {
     <a
       href="#contact"
       rel="noopener noreferrer"
-      className="btn btn-primary cta__nav-button"
+      className="btn btn-primary"
     >
       Order Now
     </a>

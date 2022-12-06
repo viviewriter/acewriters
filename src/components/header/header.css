@@ -45,6 +45,10 @@
   width: 100%;
 }
 
+.price {
+  color: var(--color-primary-variant);
+}
+
 .image__partition > img {
   width: 616px;
   height: 617px;

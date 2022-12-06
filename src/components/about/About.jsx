@@ -8,7 +8,6 @@ import Cta from '../callToActionBtns/Cta';
 
 const About = () => (
   <section id="about">
-    <h5>Get to know</h5>
     <h2>About Us</h2>
 
     <div className="container about__container">
