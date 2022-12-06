@@ -2,6 +2,7 @@ import React from 'react';
 import './header.css';
 import heroImg from '../../assets/hero.png';
 import Cta from '../callToActionBtns/Cta';
+import Socials from './HeaderSocials';
 
 function Header() {
   return (
@@ -48,6 +49,7 @@ function Header() {
           </div>
         </div>
       </div>
+      <Socials />
     </section>
   );
 }
