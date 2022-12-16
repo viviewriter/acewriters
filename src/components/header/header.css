@@ -45,10 +45,6 @@
   width: 100%;
 }
 
-.price {
-  color: var(--color-primary-variant);
-}
-
 .image__partition > img {
   width: 616px;
   height: 617px;
@@ -111,6 +107,10 @@
     bottom: 0;
     margin-top: 2rem;
     margin-bottom: 0;
+  }
+
+  #header {
+    margin-top: 2rem;
   }
 }
 

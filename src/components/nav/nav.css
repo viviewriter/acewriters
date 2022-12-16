@@ -19,7 +19,7 @@
 }
 
 .nav-logo {
-  color: var(--color-primary-variant);
+  color: var(--color-primary);
   align-items: center;
   margin-left: 20px;
   cursor: pointer;

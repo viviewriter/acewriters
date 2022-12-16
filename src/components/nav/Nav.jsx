@@ -66,8 +66,9 @@ function Nav() {
             </li>
           </ul>
           <a
-            href="#contact"
-            rel="noopener noreferrer"
+            href="mailto:chegsolutions3@gmail.com"
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-primary cta__nav-button"
           >
             Order Now

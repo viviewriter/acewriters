@@ -3,8 +3,9 @@ import React from 'react';
 function Cta() {
   return (
     <a
-      href="#contact"
-      rel="noopener noreferrer"
+      href="mailto:chegsolutions3@gmail.com"
+      target="_blank"
+      rel="noreferrer"
       className="btn btn-primary"
     >
       Order Now

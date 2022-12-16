@@ -42,11 +42,12 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
+          <h5>Incase of any question or enquiry</h5>
           <input hidden readOnly type="text" value="Ace Writers" name="name" />
           <input type="text" name="from_name" placeholder="Name" required />
           <input type="email" name="email" placeholder="Enter your email" required />
-          <textarea name="message" rows="7" placeholder="Paper description" required />
-          <button type="submit" className="btn btn-primary">Place Order</button>
+          <textarea name="message" rows="7" placeholder="Leave your question or feedback" required />
+          <button type="submit" className="btn btn-primary">Place Enquiry</button>
         </form>
       </div>
       <br />
