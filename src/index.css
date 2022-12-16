@@ -150,7 +150,8 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 0 auto;
+    padding-top: 4.7rem;
   }
 }
 
