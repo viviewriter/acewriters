@@ -1,6 +1,6 @@
-import gmos from '../assets/gmos.docx';
-import immortalLife from '../assets/Immortal_Life.docx';
-import religion from '../assets/RELIGION.docx';
+import gmos from '../assets/gmos.pdf';
+import immortalLife from '../assets/Immortal_Life.pdf';
+import religion from '../assets/RELIGION.pdf';
 
 export default [
   {

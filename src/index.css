@@ -10,10 +10,6 @@
   text-decoration: none;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 :root {
   --color-bg: #87e6f6;
   --color-bg-variant: #042961;
