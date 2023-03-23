@@ -9,7 +9,7 @@ const Footer = () => (
 
     <ul className="permalinks">
       <li><a href="#">Home</a></li>
-      <li><a href="about">About</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#testimonials">Testimonials</a></li>
@@ -20,7 +20,7 @@ const Footer = () => (
 
     <div className="footer__copyright">
       <small>
-        &copy; Ace Writers 2022. All rights reserved. Made with ♥ by
+        &copy; Ace Writers 2022. All rights reserved. Made by
         {' '}
         <a
           href="https://github.com/mosams"

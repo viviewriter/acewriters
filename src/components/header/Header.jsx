@@ -2,6 +2,7 @@ import React from 'react';
 import './header.css';
 import heroImg from '../../assets/hero.png';
 import Cta from '../callToActionBtns/Cta';
+import Socials from './HeaderSocials';
 
 function Header() {
   return (
@@ -10,7 +11,11 @@ function Header() {
         <div className="header__text-content">
           <div className="header__page-heading">
             <h1>
-              Welcome to ACEWRITERS. We provide excellent custom writing services
+              Welcome to ACEWRITERS. We provide excellent custom writing services at only
+              {' '}
+              <b className="price">$20</b>
+              {' '}
+              per page
             </h1>
             <p>
               <b>
@@ -22,7 +27,7 @@ function Header() {
               As a student, doing assignments
               is an inevitable part of your life. Undoubtedly, you
               can forget about all your hobbies and interests and dedicate all your free
-              time to writing. However, if academic writing is not your fort, you have
+              time to writing. However, if academic writing is not your forte, you have
               no time, or you simply possess poor time management skills-welcome
               to
               {' '}
@@ -44,6 +49,7 @@ function Header() {
           </div>
         </div>
       </div>
+      <Socials />
     </section>
   );
 }

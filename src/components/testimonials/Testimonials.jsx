@@ -8,7 +8,6 @@ import dataTestimonials from '../../data/dataTestimonials';
 
 const Testimonials = () => (
   <section id="testimonials">
-    <h5>Review from clients</h5>
     <h2>Testimonials</h2>
     <Swiper
       className="container testimonials__container"
@@ -19,28 +18,18 @@ const Testimonials = () => (
     >
       {
         dataTestimonials.map(({
-          id, userName, avatar, review,
+          id, avatar,
         }) => (
           <SwiperSlide
-            className="testimonial owl-carousel"
             key={id}
           >
-            <div className="pic">
-              <img src={avatar} alt="Avatar one" />
-            </div>
-            <p className="description">
-              {review}
-            </p>
-            <div className="testimonial-profile">
-              <h3 className="title">{userName}</h3>
-              <br />
-              <span className="post">Web Developer</span>
-            </div>
+            <figure className="snip1574">
+              <img src={avatar} alt="profile-sample2" />
+            </figure>
           </SwiperSlide>
         ))
       }
     </Swiper>
-    <hr />
   </section>
 );
 

@@ -8,7 +8,6 @@ import Cta from '../callToActionBtns/Cta';
 
 const About = () => (
   <section id="about">
-    <h5>Get to know</h5>
     <h2>About Us</h2>
 
     <div className="container about__container">
@@ -27,12 +26,12 @@ const About = () => (
           <article className="about__card">
             <FiUsers className="about__icon" />
             <h5>Clients</h5>
-            <small>500,000+ worldwide</small>
+            <small>5000+ worldwide</small>
           </article>
           <article className="about__card">
             <VscFolderLibrary className="about__icon" />
             <h5>Projects</h5>
-            <small>100,455+ completed</small>
+            <small>80,000+ completed</small>
           </article>
         </div>
         <p>

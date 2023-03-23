@@ -5,13 +5,12 @@ import data from '../../data/dataPortfolio';
 function Portfolio() {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
       <h2>Sample Papers</h2>
 
       <div className="container portfolio__container">
         {
         data.map(({
-          id, description, title,
+          id, description, title, fullDocument,
         }) => (
           <article className="letter" key={id}>
             <h4>{title}</h4>
@@ -19,6 +18,13 @@ function Portfolio() {
               {description}
             </p>
             <div className="fadeout" />
+            <a
+              href={fullDocument}
+              rel="noopener noreferrer"
+              className="btn"
+            >
+              Download full paper
+            </a>
           </article>
         ))
       }

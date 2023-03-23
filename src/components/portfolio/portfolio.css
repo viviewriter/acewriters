@@ -71,8 +71,8 @@
 
 .fadeout {
   position: relative;
-  bottom: 7rem;
-  height: 14vh;
+  bottom: 3rem;
+  height: 5vh;
   background:
     -webkit-linear-gradient(
       rgba(255, 255, 255, 0) 0%,
@@ -105,11 +105,23 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+
+  .fadeout {
+    position: relative;
+    bottom: 3rem;
+    height: 7vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .fadeout {
+    position: relative;
+    bottom: 3rem;
+    height: 7vh;
   }
 }

@@ -1,61 +1,84 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState } from 'react';
+import { AiOutlineClose } from 'react-icons/ai';
+import { GiHamburgerMenu } from 'react-icons/gi';
 import './nav.css';
-import Cta from '../callToActionBtns/Cta';
 
 function Nav() {
-  const [activeNav, setActiveNav] = useState('#');
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
   return (
-    <nav className="container nav__container">
-      <div className="logo__container">
-        <h1>Ace Writers</h1>
-      </div>
-      <ul className="links__list">
-        <a
-          href="#"
-          onClick={() => setActiveNav('#')}
-          className={activeNav === '#' ? 'active' : ''}
-        >
-          Home
-        </a>
-        <a
-          href="#about"
-          onClick={() => setActiveNav('#about')}
-          className={activeNav === '#about' ? 'active' : ''}
-        >
-          About
-        </a>
-        <a
-          href="#services"
-          onClick={() => setActiveNav('#services')}
-          className={activeNav === '#services' ? 'active' : ''}
-        >
-          Services
-        </a>
-        <a
-          href="#portfolio"
-          onClick={() => setActiveNav('#portfolio')}
-          className={activeNav === '#portfolio' ? 'active' : ''}
-        >
-          Portfolio
-        </a>
-        <a
-          href="#testimonials"
-          onClick={() => setActiveNav('#testimonials')}
-          className={activeNav === '#testimonials' ? 'active' : ''}
-        >
-          Testimonials
-        </a>
-        <a
-          href="#contact"
-          onClick={() => setActiveNav('#contact')}
-          className={activeNav === '#contact' ? 'active' : ''}
-        >
-          Contact Us
-        </a>
-      </ul>
-      <Cta />
-    </nav>
+    <>
+      <nav className="navbar">
+        <div className="nav-container container">
+          <a href="#" className="nav-logo">
+            Ace Writers
+          </a>
+
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className="nav-item">
+              <a
+                href="#"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="#about"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="#services"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Services
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="#testimonials"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Testimonials
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="#contact"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Contact Us
+              </a>
+            </li>
+          </ul>
+          <a
+            href="mailto:chegsolutions3@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary cta__nav-button"
+          >
+            Order Now
+          </a>
+          <div className="nav-icon" onClick={handleClick}>
+            {click ? <AiOutlineClose /> : <GiHamburgerMenu />}
+          </div>
+        </div>
+      </nav>
+    </>
   );
 }
 

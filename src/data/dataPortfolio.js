@@ -1,34 +1,40 @@
+import gmos from '../assets/gmos.pdf';
+import immortalLife from '../assets/Immortal_Life.pdf';
+import religion from '../assets/RELIGION.pdf';
+
 export default [
   {
     id: 1,
-    title: 'More about what we do',
-    description: `Our writers have graduated from the best universities of the USA, the UK, Canada and Australia.
-    They know pretty well what modern professors require. They must be
-    sick and tired of reading the endless clichéd essays. Thus, if
-    you want to impress your professor, place your order at
-    acewriters254.com. By ordering a paper from our company, you
-    will not only get an informative piece of writing but also 
-    improve your writing skills.`,
+    title: 'The Impact of GMOs on Human Health and the Environment',
+    description: `
+    The issues of climate change and global warming have been posing a threat to the
+    current sustainability of food in the ecosystem. Drought, flooding causing waterlogged soils,
+    erratic weather shifting harvest patterns, and longer growing seasons that cause pest pressures
+    have all impacted agriculture. Ironically, the food system production contributes further to the
+    greenhouse emissions that escalate the climate change crisis.`,
+    fullDocument: gmos,
   },
   {
     id: 2,
-    title: 'Our Delivery Quality',
-    description: `You will never regret relying on our college essay writing service! We can
-    handle essays, term papers, research papers, resumes, personal
-    statements, theses, research proposals and even professional
-    dissertations perfectly. There is no topic too complex for us.
-    You can be sure that the writer will study the sources in detail
-    to provide you with an excellent essay or research paper.`,
+    title: 'THE IMMORTAL LIFE OF HENRIETTA LACKS',
+    description: `Introduction
+    
+    Western medicine made a lot of progress and breakthroughs in the 20th century. Most of
+    this was because minority groups were ill-treated and used as research subjects. Many poor men
+    and women have given their lives and health to medical progress without their knowledge or
+    permission. Henrietta Lacks is one example. Under the guise of medical progress, the American
+    Medical Establishment hurt Henrietta and other silent African American victims.`,
+    fullDocument: immortalLife,
   },
   {
     id: 3,
-    title: 'Our Research Team',
-    description: `We have access to numerous databases that enables us
-    to use the most relevant sources for writing papers. Moreover,
-    if you have to create a paper in MLA, APA, Chicago, Harvard,
-    Oxford or any other writing style, do not worry! Our experts
-    know all the standards of academic writing and can produce brilliant
-    writing masterpieces that will impress even the most demanding
-    instructors.`,
+    title: 'CROSS CULTURAL PERSPECTIVES ON RELIGION',
+    description: ` The five pillars of Islamic religion and how they influence the Islamic culture
+    The Islamic religion is mainly associated with the Arab communities from the middle
+    east. This religion has however spread to the different parts of the world. The Arabs conquered
+    new lands where they built mosques and other works of art as an expression of their own faith.
+    The Muslim community is guided by the five main pillars which shape the culture and the
+    interactions of the Muslim community with other cultures. `,
+    fullDocument: religion,
   },
 ];

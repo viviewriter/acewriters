@@ -1,7 +1,9 @@
-import AVTR1 from '../assets/avatar1.jpg';
-import AVTR2 from '../assets/avatar2.jpg';
-import AVTR3 from '../assets/avatar3.jpg';
-import AVTR4 from '../assets/avatar4.jpg';
+import AVTR1 from '../assets/testimonial1.jpeg';
+import AVTR2 from '../assets/testimonial2.jpeg';
+import AVTR3 from '../assets/testimonial3.jpeg';
+import AVTR4 from '../assets/testimonial4.jpeg';
+import AVTR5 from '../assets/testimonial5.jpeg';
+import AVTR6 from '../assets/testimonial6.jpeg';
 
 export default [
   {
@@ -34,6 +36,24 @@ export default [
   {
     id: 4,
     avatar: AVTR4,
+    userName: 'Jullie Doe',
+    review: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur modi explicabo provident atque odio excepturi
+            perspiciatis dignissimos a incidunt nobis itaque culpa aut
+            porro, magnam, nisi labore, suscipit sunt repellendus!`,
+  },
+  {
+    id: 5,
+    avatar: AVTR5,
+    userName: 'Jullie Doe',
+    review: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur modi explicabo provident atque odio excepturi
+            perspiciatis dignissimos a incidunt nobis itaque culpa aut
+            porro, magnam, nisi labore, suscipit sunt repellendus!`,
+  },
+  {
+    id: 6,
+    avatar: AVTR6,
     userName: 'Jullie Doe',
     review: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consectetur modi explicabo provident atque odio excepturi

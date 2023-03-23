@@ -6,7 +6,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 
 function Socials() {
   return (
-    <div className="socials">
+    <div className="socials header_socials">
       <a href="https://www.tiktok.com/@ace_writers_?lang=en"><FaTiktok /></a>
       <a href="https://www.instagram.com/ace_writers_"><FiInstagram /></a>
       <a href="https://api.whatsapp.com/send?phone=+12692866924"><BsWhatsapp /></a>

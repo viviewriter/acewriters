@@ -10,10 +10,6 @@
   text-decoration: none;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 :root {
   --color-bg: #87e6f6;
   --color-bg-variant: #042961;
@@ -42,13 +38,13 @@ body {
 }
 
 section {
-  padding-top: 10vh;
+  padding-top: 80px;
+  margin-bottom: 0;
 }
 
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
-  border-bottom: 2px solid var(--color-primary);
 }
 
 h1,
@@ -150,7 +146,8 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin: 0 auto;
+    padding-top: 4.7rem;
   }
 }
 
