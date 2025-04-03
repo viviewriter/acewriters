@@ -19,7 +19,8 @@
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off",
-    "linebreak-style": 0
+    "indent": "off",
+    "linebreak-style": 0	
   },
   "ignorePatterns": [
     "dist/",

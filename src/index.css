@@ -11,13 +11,13 @@
 }
 
 :root {
-  --color-bg: #87e6f6;
+  --color-bg: #5f788a;
   --color-bg-variant: #042961;
-  --color-primary: #e27527;
-  --color-primary-variant: #97480f;
+  --color-primary: #4F6677;
+  --color-primary-variant: #f1ecec;
   --color-black: #000;
   --color-white: #ffff;
-  --color-light: #6b7280;
+  --color-light: #eeeff3;
   --transition: all 400ms ease;
   --container-width-lg: 90%;
   --container-width-md: 86%;
@@ -32,7 +32,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--color-black);
   line-height: 1.7;
-  background: linear-gradient(180deg, #69e1f9 0%, rgba(105, 225, 249, 0) 100%);
+  background: linear-gradient(180deg,  0%, #5f788a, rgba(105, 225, 249, 0) 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,7 +102,7 @@ a:hover {
 
 .btn-primary {
   background: var(--color-primary);
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 
 .cta__nav-button {

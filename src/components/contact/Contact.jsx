@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiInstagramLine } from 'react-icons/ri';
-import { BsWhatsapp } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
 import './contact.css';
 
@@ -25,20 +24,14 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>chegsolutions3@gmail.com</h5>
-            <a href="mailto:chegsolutions3@gmail.com" target="_blank" rel="noreferrer">send a message</a>
+            <h5>support@acewriters.pro</h5>
+            <a href="mailto:support@acewriters.pro" target="_blank" rel="noreferrer">send a message</a>
           </article>
           <article className="contact__option">
             <RiInstagramLine className="contact__option-icon" />
             <h4>Instagram</h4>
             <h5>Ace Writers</h5>
             <a href="https://www.instagram.com/ace_writers_" target="_blank" rel="noreferrer">send a message</a>
-          </article>
-          <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h4>WhatsApp</h4>
-            <h5>+1 269 286 6924</h5>
-            <a href="https://api.whatsapp.com/send?phone=+12692866924" target="_blank" rel="noreferrer">send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
@@ -52,7 +45,7 @@ const Contact = () => {
       </div>
       <br />
       <br />
-      <h5>We exceed your expectations so that you can come back and buy from us again.</h5>
+      <h4>We exceed your expectation so that you can come and buy from us again.</h4>
     </section>
   );
 };

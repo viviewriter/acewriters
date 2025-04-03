@@ -20,30 +20,18 @@ const Footer = () => (
 
     <div className="footer__copyright">
       <small>
-        &copy; Ace Writers 2022. All rights reserved. Made by
+        &copy; Ace Writers 2025. All rights reserved.Connect with us on our socials
         {' '}
         <a
-          href="https://github.com/mosams"
+          href="instagram.com/ace_writers_"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Mong&apos;are
+          ace_writers_
         </a>
         {' '}
 
       </small>
-      <div>
-        {' '}
-        Illustrations from
-        {' '}
-        <a
-          href="https://www.glazestock.com/"
-          target="_blank"
-          rel="noopener  noreferrer"
-        >
-          Glazestock
-        </a>
-      </div>
     </div>
   </footer>
 );

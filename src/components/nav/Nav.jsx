@@ -10,6 +10,10 @@ function Nav() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+
+  const handleOrderClick = () => {
+    window.location.href = 'http://127.0.0.1:8000/order/';
+  };
   return (
     <>
       <nav className="navbar">
@@ -65,14 +69,13 @@ function Nav() {
               </a>
             </li>
           </ul>
-          <a
-            href="mailto:chegsolutions3@gmail.com"
-            target="_blank"
-            rel="noreferrer"
+          <button
+            onClick={handleOrderClick} // This calls the handleOrderClick function
             className="btn btn-primary cta__nav-button"
+            type="button"
           >
             Order Now
-          </a>
+          </button>
           <div className="nav-icon" onClick={handleClick}>
             {click ? <AiOutlineClose /> : <GiHamburgerMenu />}
           </div>

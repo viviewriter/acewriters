@@ -1,4 +1,5 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
@@ -8,8 +9,22 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
-const App = () => (
-  <>
+const App = () => {
+   const [message, setMessage] = useState('');
+
+   useEffect(() => {
+     axios
+	    .get('http://127.0.0.1:8000/api/hello/')
+	   .then((response) => {
+		  setMessage(response.data.message);
+		})
+		.catch((error) => console.error('Error fetching data', error));
+	}, []);
+
+	return (
+  <div>
+    <h1>React and Django</h1>
+    <p>{message}</p>
     <Nav />
     <Header />
     <About />
@@ -18,7 +33,8 @@ const App = () => (
     <Testimonials />
     <Contact />
     <Footer />
-  </>
-);
+  </div>
+	);
+  };
 
-export default App;
+  export default App;

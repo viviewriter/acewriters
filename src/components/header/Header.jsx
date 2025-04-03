@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import heroImg from '../../assets/hero.png';
+import heroImg from '../../assets/hero.jpeg';
 import Cta from '../callToActionBtns/Cta';
 import Socials from './HeaderSocials';
 
@@ -18,20 +18,12 @@ function Header() {
               per page
             </h1>
             <p>
-              <b>
-                Are you tired of studying? Do you need to get some rest?
-                Would you like better grades?
-
-              </b>
+              <b>A grades guaranteed. </b>
               {' '}
-              As a student, doing assignments
-              is an inevitable part of your life. Undoubtedly, you
-              can forget about all your hobbies and interests and dedicate all your free
-              time to writing. However, if academic writing is not your forte, you have
-              no time, or you simply possess poor time management skills-welcome
-              to
+              We handle online classes, essays, statistics, programming, and so much more...
+              -Don&apos;t stress when you can relax.
               {' '}
-              <b>acewriters254.com.</b>
+              <b>acewriters got you!!!</b>
             </p>
             <div className="cta__partition">
               <Cta />
