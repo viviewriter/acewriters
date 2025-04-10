@@ -14,16 +14,15 @@ const App = () => {
 
    useEffect(() => {
      axios
-	    .get('http://127.0.0.1:8000/api/hello/')
-	   .then((response) => {
-		  setMessage(response.data.message);
-		})
-		.catch((error) => console.error('Error fetching data', error));
-	}, []);
-
-	return (
+     .get('http://127.0.0.1:8000/api/hello/')
+     .then((response) => {
+      setMessage(response.data.message);
+    })
+    .catch((error) => console.error('Error fetching data', error));
+  }, []);
+  return (
   <div>
-    <h1>React and Django</h1>
+    <h1>Welcome to Ace</h1>
     <p>{message}</p>
     <Nav />
     <Header />
@@ -34,7 +33,7 @@ const App = () => {
     <Contact />
     <Footer />
   </div>
-	);
+);
   };
 
   export default App;
