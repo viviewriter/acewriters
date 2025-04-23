@@ -21,18 +21,18 @@ const App = () => {
     .catch((error) => console.error('Error fetching data', error));
   }, []);
   return (
-  <div>
-    <h1>Ace gives you As</h1>
-    <p>{message}</p>
-    <Nav />
-    <Header />
-    <About />
-    <Services />
-    <Portfolio />
-    <Testimonials />
-    <Contact />
-    <Footer />
-  </div>
+    <div>
+      <h1>Ace gives you As</h1>
+      <p>{message}</p>
+      <Nav />
+      <Header />
+      <About />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </div>
 );
   };
 
