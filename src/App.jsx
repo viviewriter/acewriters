@@ -22,7 +22,7 @@ const App = () => {
   }, []);
   return (
     <div>
-      <h1>Ace gives you As</h1>
+      <h1>Ace gives you A grades</h1>
       <p>{message}</p>
       <Nav />
       <Header />

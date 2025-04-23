@@ -12,7 +12,7 @@ function Nav() {
   const handleClick = () => setClick(!click);
 
   const handleOrderClick = () => {
-    window.location.href = 'http://127.0.0.1:8000/order/';
+    window.location.href = 'https://www.acewriters.pro/order/';
   };
   return (
     <>
